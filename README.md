@@ -1,5 +1,6 @@
 # AwesomeComponents
 
+This project is a blogging and recruitment platform. it was created to improve the knowledge acquired in angular and to implement new features. Angular, Angular Material, Pipes, Directives, Resolver.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
 ## Development server
