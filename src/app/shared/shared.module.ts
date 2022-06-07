@@ -3,9 +3,10 @@ import { CommonModule } from '@angular/common';
 import { CommentsComponent } from './components/comments/comments.component';
 import {MaterialModule} from "./material.module";
 import {ReactiveFormsModule} from "@angular/forms";
-import {ShortenPipe} from "./components/comments/pipes/shorten.pipe";
-import {UsernamePipe} from "./components/comments/pipes/username.pipe";
-import {TimeAgoPipe} from "./components/comments/pipes/time-ago.pipe";
+import {ShortenPipe} from "./pipes/shorten.pipe";
+import {UsernamePipe} from "./pipes/username.pipe";
+import {TimeAgoPipe} from "./pipes/time-ago.pipe";
+import {HighlightDirective} from "./directives/highlight.directive";
 
 
 
@@ -14,7 +15,8 @@ import {TimeAgoPipe} from "./components/comments/pipes/time-ago.pipe";
     CommentsComponent,
     ShortenPipe,
     UsernamePipe,
-    TimeAgoPipe
+    TimeAgoPipe,
+    HighlightDirective
   ],
   imports: [
     CommonModule,
@@ -27,7 +29,8 @@ import {TimeAgoPipe} from "./components/comments/pipes/time-ago.pipe";
     ReactiveFormsModule,
     ShortenPipe,
     UsernamePipe,
-    TimeAgoPipe
+    TimeAgoPipe,
+    HighlightDirective
   ]
 })
 export class SharedModule { }
